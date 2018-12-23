@@ -14,7 +14,7 @@ Other useful documentation:
 
 * Everyone must have Ruby installed:
 
-    ruby --version
+        $ ruby --version
 
 * Everyone must have RubyMine IDE installed or another text editor they
 feel comfotable with
@@ -44,7 +44,7 @@ Ruby intepreter. In the terminal type:
 
 Each Ruby program consists of several basic blocks:
 
-- module imports (`require` keyword)
+- module imports (`require`, `include` and other keywords)
 - statements
 - method definitions
 - class definitions
@@ -72,7 +72,6 @@ For example:
 
 ## Variables
 
-
 See:
 * http://www.rubyist.net/~slagell/ruby/variables.html
 * http://www.rubyist.net/~slagell/ruby/localvars.html
@@ -96,7 +95,9 @@ using the assignment operator (`=`) like so:
     name = "Alex"
     puts "Good morning " + name
 
-Try this program in the interactive interpreter!
+Exercise:
+* Try this program in the interactive interpreter!
+* Try the examples from the documentation
 
 
 ## Methods
@@ -206,6 +207,10 @@ Exercise:
 
 
 ## How to start the provided test suite
+
+Future chapters provide a test suite written with `RSpec`. This is one of the
+standard testing libraries in Ruby. The test suite can be used to validate the
+correctness of your solution. It can be started like so:
 
     $ bin/rspec --format doc
 
