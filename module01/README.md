@@ -208,10 +208,23 @@ Exercise:
 
 ## How to start the provided test suite
 
-Future chapters provide a test suite written with `RSpec`. This is one of the
+All chapters provide a test suite written with `RSpec`. This is one of the
 standard testing libraries in Ruby. The test suite can be used to validate the
 correctness of your solution. It can be started like so:
 
     $ bin/rspec --format doc
+    $ ~/.rvm/gems/default/bin/rspec --format doc
+
 
 For more information see http://rspec.info/
+
+
+## Tasks & homework
+
+* Create a program named `solution.rb`
+* Define a method with the following signature `def f_c(X)` which
+  returns the constant 4 for any input parameter.
+* Document what the method `f_c` does with comments
+* Write a method `f_x(x, a, b)` which implements the formula `f(x) = a*x + b`!
+* Write a method `sum(x)` which returns the sum of `f_x()` called 3 times with
+  parameters `x, 1, 1`, `x, 2, 2`, `x, 3, 3`!
