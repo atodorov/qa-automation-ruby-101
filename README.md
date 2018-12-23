@@ -5,16 +5,6 @@
 
 ## Module 01 - Introduction to Ruby
 
-- a bit of history behind the language
-- variables and functions
-- how to start my program
-- how to start the test suite
-- quick examples for using print and debug
-- making sure everyone has a properly configured working environment and they
-know what to do with it.
-
-^^^ there are also a few tasks that need to be completed.
-
 3) Data types and operations with them
 
 4) Control flow: conditional statements and loops
