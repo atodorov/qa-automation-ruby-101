@@ -9,6 +9,7 @@ Other useful documentation:
 * Ruby Essentials - https://www.techotopia.com/index.php/Ruby_Essentials
 * Ruby core documentation - http://ruby-doc.org/core-2.5.3/
 * Ruby standard library documentation - http://ruby-doc.org/stdlib-2.5.3/
+* Ruby for Beginners - http://ruby-for-beginners.rubymonstas.org/index.html
 
 ## Environment check
 

@@ -5,7 +5,7 @@
 
 ## Module 01 - Introduction to Ruby
 
-3) Data types and operations with them
+## Module 02 - Important data types and data structures
 
 4) Control flow: conditional statements and loops
 
