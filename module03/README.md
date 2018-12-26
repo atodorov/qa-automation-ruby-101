@@ -23,6 +23,10 @@ Because Ruby allows for greater flexibility than other languages I suggest
 using a single syntax for your `if` conditions and loops!
 
 
+**NOTE:** many built-in classes in Ruby provide methods that will produce an
+Enumerator which can be iterated on. For example `.each`, `.times` and `.each_char`
+methods. In many cases these can be used instead of standard `for` loop.
+
 
 ## Tasks & homework
 
