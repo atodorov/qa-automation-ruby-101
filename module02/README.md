@@ -83,7 +83,7 @@ Exercise:
 ingredient `ingr` exists in the hash `hash`
 * Implement a method `fatten_pancakes(hash)` which returns a hash. The return
 value contains the pancake ingredients where `eggs == 6` and `butter == true`.
-**NOTE:** don't change the `PANCAKE_INGREDIENTS` constant! Use `hash.copy()` method!
+**NOTE:** don't change the `PANCAKE_INGREDIENTS` constant! Use `hash.clone()` method!
 * Implement a method `add_sugar(hash)` which adds 'sugar' to the list of ingredients
 and returns a new hash
 * Implement a method `remove_salt(hash)` which removes 'salt' from the list of
