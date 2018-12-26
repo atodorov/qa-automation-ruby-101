@@ -7,7 +7,7 @@
 
 ## Module 02 - Important data types and data structures
 
-4) Control flow: conditional statements and loops
+## Module 03 - Control flow: conditional statements and loops
 
 5) Classes and objects
 

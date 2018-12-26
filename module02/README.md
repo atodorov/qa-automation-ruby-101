@@ -98,3 +98,8 @@ the next [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
 if the number `n` exists in the Fibonacci sequence `arr`
 * Implement a method `which_fib(arr, n)` which returns integer. This is the index
 of the number `n` inside the sequence `arr` counting from 1.
+
+**TIP:** Use the test suite to validate your solution is correct:
+
+    $ bin/rspec --format doc
+    $ ~/.rvm/gems/default/bin/rspec --format doc
