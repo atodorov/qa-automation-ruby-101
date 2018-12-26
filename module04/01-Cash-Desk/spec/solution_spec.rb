@@ -33,7 +33,7 @@ describe 'Cash Desk solution' do
     end
 
     describe BatchBill do
-        before(:all)
+        before(:all) do
             @bill5 = Bill.new(5)
             @bill10 = Bill.new(10)
             @batch = BatchBill.new([@bill5, @bill10])
@@ -45,19 +45,29 @@ describe 'Cash Desk solution' do
         end
 
         it '.total works' do
-            expect(@batch.total, 15)
+            expect(@batch.total).to eq(15)
+        end
+
+        it '.length works' do
+            expect(@batch.length).to eq(2)
+        end
+
+        it 'looping over object works' do
+            for bill in @batch
+                expect(bill.is_a?(Bill)).to be true
+            end
         end
     end
 
 
     describe CashDesk do
-        before(:each)
+        before(:each) do
             @bill = Bill.new(10)
             @batch = BatchBill.new([Bill.new(5), Bill.new(10), Bill.new(15)])
             @desk = CashDesk.new()
         end
 
-        it '.take_money() works with bills'
+        it '.take_money() works with bills' do
             @desk.take_money(@bill)
             expect(@desk.total).to eq(10)
         end
@@ -73,7 +83,7 @@ describe 'Cash Desk solution' do
             expect(@desk.total).to eq(40)
         end
 
-        it '.inspect() works' do
+        it '.inspect works' do
             @desk.take_money(@bill)
             @desk.take_money(@batch)
 

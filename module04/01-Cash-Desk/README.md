@@ -56,25 +56,30 @@ We are going to implement a class, which represents more than one bill. A `Batch
 
 The class takes a list of `Bills` as the single constructor argument.
 
-The class should have the following methods:
+The class should have the following properties:
 
-* `__len__(self)` - returns the number of `Bills` in the batch
-* `total(self)` - returns the total amount of all `Bills` in the batch
+* `length` - returns the number of `Bills` in the batch
+* `total` - returns the total amount of all `Bills` in the batch
 
-We should be able to iterate the `BatchBill` class with a for-loop.
+We should be able to iterate the `BatchBill` class with a loop, see `.each` method:
+https://ruby-doc.org/core-2.6/Array.html
 
 Here is an example:
 
-```python
-from solution import Bill, BillBatch
+```ruby
+require 'solution'
 
 values = [10, 20, 50, 100]
-bills = [Bill(value) for value in values]
+bills = []
+for value in values
+    bills.push(Bill.new(value))
+end
 
-batch = BillBatch(bills)
+batch = BillBatch.new(bills)
 
-for bill in batch:
-    print(bill)
+for bill in batch
+    puts bill
+end
 
 # A 10$ bill
 # A 20$ bill
@@ -82,38 +87,34 @@ for bill in batch:
 # A 100$ bill
 ```
 
-In order to do that, you need to implement the following method:
-
-```python
-def __getitem__(self, index):
-    pass
-```
-
 ## The CashDesk classs
 
 Finally, implement a `CashDesk` class, which has the following methods:
 
 * `take_money(money)`, where `money` can be either `Bill` or `BatchBill` class
-* `total()` - returns the total amount of money currenly in the desk
-* `inspect()` - returns a table representation of the money - for each bill, how many copies of it we have.
+* `total` - returns the total amount of money currently in the desk
+* `inspect` - returns a hash representation of the money - for each bill, how many copies of it we have.
 
 For example:
 
-```python
-from solution import Bill, BillBatch, CashDesk
+```ruby
+require 'solution'
 
 values = [10, 20, 50, 100, 100, 100]
-bills = [Bill(value) for value in values]
+bills = []
+for value in values
+    bills.push(Bill.new(value))
+end
 
-batch = BillBatch(bills)
+batch = BillBatch.new(bills)
 
-desk = CashDesk()
+desk = CashDesk.new()
 
 desk.take_money(batch)
-desk.take_money(Bill(10))
+desk.take_money(Bill.new(10))
 
-print(desk.total()) # 390
-desk.inspect()
+puts desk.total # 390
+desk.inspect
 
 # We have a total of 390$ in the desk
 # We have the following count of bills, sorted in ascending order:
@@ -123,4 +124,3 @@ desk.inspect()
 # 100$ bills - 3
 
 ```
-
