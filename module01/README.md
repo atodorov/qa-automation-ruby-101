@@ -222,7 +222,7 @@ For more information see http://rspec.info/
 
 ## Tasks & homework
 
-* Create a program named `solution.rb`
+* Create a program named `lib/solution.rb`
 * Define a method with the following signature `def f_c(X)` which
   returns the constant 4 for any input parameter.
 * Document what the method `f_c` does with comments
