@@ -169,4 +169,46 @@ describe 'solution.rb' do
             test_pancake_ingredients
         end
     end
+
+    describe 'FIBONACCI_NUMBERS' do
+        it 'should follow specification' do
+            expect(FIBONACCI_NUMBERS).to eq([1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144])
+        end
+    end
+
+    describe 'add_fibonacci' do
+        numbers = FIBONACCI_NUMBERS.clone
+
+        it 'should work per soecification' do
+            expect(numbers).to eq([1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144])
+            expect(add_fibonacci(numbers)[-1]).to eq(233)
+            expect(add_fibonacci(numbers)[-1]).to eq(377)
+            expect(add_fibonacci(numbers)[-1]).to eq(610)
+        end
+    end
+
+    describe 'fib_exists' do
+        it 'should work per specification' do
+            # validate input parameter is in use
+            expect(fib_exists([1, 1], 2)).to be false
+
+            expect(fib_exists(FIBONACCI_NUMBERS, 0)).to be false
+            expect(fib_exists(FIBONACCI_NUMBERS, 1)).to be true
+            expect(fib_exists(FIBONACCI_NUMBERS, 144)).to be true
+        end
+    end
+
+    describe 'which_fib' do
+        it 'should work per specification' do
+            # validate input parameter is in use
+            expect { which_fib([1, 1], 2) }.to raise_error(NoMethodError)
+
+            expect(which_fib(FIBONACCI_NUMBERS, 1)).to eq(1)
+            expect(which_fib(FIBONACCI_NUMBERS, 55)).to eq(10)
+
+            expect {
+                which_fib(FIBONACCI_NUMBERS, 99999)
+            }.to raise_exception(NoMethodError)
+        end
+    end
 end

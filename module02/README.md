@@ -88,11 +88,11 @@ value contains the pancake ingredients where `eggs == 6` and `butter == true`.
 and returns a new hash
 * Implement a method `remove_salt(hash)` which removes 'salt' from the list of
 igredients and returns a new hash
-* Define a list called `FIBONACCI_NUMBERS` which contains the first 12 Fibonacci numbers:
+* Define an array called `FIBONACCI_NUMBERS` which contains the first 12 Fibonacci numbers:
 
         1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
 
-* Implement a method `add_fibonacci(arr)` which extends the list of numbers with
+* Implement a method `add_fibonacci(arr)` which extends the array of numbers with
 the next [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number)
 * Implement a method `fib_exists(arr, n)` which returns boolean. The method checks
 if the number `n` exists in the Fibonacci sequence `arr`
