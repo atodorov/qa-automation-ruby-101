@@ -9,7 +9,7 @@
 
 ## Module 03 - Control flow: conditional statements and loops
 
-5) Classes and objects
+## Module 04 - Object oriented programming
 
 6) Intro to RSpec
 - what is a unit test framework, why we need it and what does it give us
