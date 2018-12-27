@@ -1,7 +1,7 @@
 require 'solution'
 
 describe BankAccount do
-    before(:each) do
+    before(:example) do
         @account = BankAccount.new("Rado", 0, "$")
     end
 

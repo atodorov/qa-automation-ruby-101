@@ -1,7 +1,7 @@
 require 'solution'
 
 describe 'Cash Desk solution' do
-    before(:all) do
+    before(:context) do
         @bill = Bill.new(5)
     end
 
@@ -33,7 +33,7 @@ describe 'Cash Desk solution' do
     end
 
     describe BatchBill do
-        before(:all) do
+        before(:context) do
             @bill5 = Bill.new(5)
             @bill10 = Bill.new(10)
             @batch = BatchBill.new([@bill5, @bill10])
@@ -61,7 +61,7 @@ describe 'Cash Desk solution' do
 
 
     describe CashDesk do
-        before(:each) do
+        before(:example) do
             @bill = Bill.new(10)
             @batch = BatchBill.new([Bill.new(5), Bill.new(10), Bill.new(15)])
             @desk = CashDesk.new()
