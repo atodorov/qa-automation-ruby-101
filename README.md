@@ -11,11 +11,7 @@
 
 ## Module 04 - Object oriented programming
 
-6) Intro to RSpec
-- what is a unit test framework, why we need it and what does it give us
-- what are expectations (assertions)
-- using RSpec for other types of tests (e.g. non-unit tests with a unit testing
-framework) aka integration tests with RSpec
+## Module 05 - Introduction to testing with RSpec
 
 7) What is Rake - practice creating Rake files
 
