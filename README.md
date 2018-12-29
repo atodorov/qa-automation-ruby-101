@@ -15,12 +15,12 @@
 
 ## Module 06 - Introduction to Cucumber
 
+## Module 07 - HTTP, REST and rest-client
+
 7) What is Rake - practice creating Rake files
 
-8) rest-client - intro & practice
 
+## Module 09 - Reading and understanding simple programs
 
-10) Reading & understanding simple programs
-- this will be coupled with debugging exercises and source code the attendees
-have never seen before. This will be entirely practical.
-
+The last module is entirely practice based. We are going to work on
+source code directly from existing projects!
