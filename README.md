@@ -13,11 +13,12 @@
 
 ## Module 05 - Introduction to testing with RSpec
 
+## Module 06 - Introduction to Cucumber
+
 7) What is Rake - practice creating Rake files
 
 8) rest-client - intro & practice
 
-9) Cucumber - intro & practice
 
 10) Reading & understanding simple programs
 - this will be coupled with debugging exercises and source code the attendees
