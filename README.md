@@ -1,5 +1,9 @@
 # QA Automation with Ruby
 
+This is an introductory training for test engineers who wish to learn basic concepts
+and work with the Ruby programming language. It has been designed as in-house training
+and is made available to everyone under GPL v3 license.
+
 
 ## Module 00 - Introduction to programming
 
