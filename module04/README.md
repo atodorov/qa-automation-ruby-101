@@ -1,4 +1,4 @@
-# Module 04: Object Oriented Programming
+# Module 04 - Object Oriented Programming
 
 Read:
 * http://www.rubyist.net/~slagell/ruby/oothinking.html

@@ -1,4 +1,4 @@
-# Module 05: Testing with RSpec
+# Module 05 - Testing with RSpec
 
 Read:
 * http://rspec.info/documentation/ - API docs for rspec-core and rspec-expectations

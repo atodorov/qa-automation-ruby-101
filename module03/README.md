@@ -1,4 +1,4 @@
-# Module 03: Control flow: conditional statements and loops
+# Module 03 - Control flow: conditional statements and loops
 
 Read:
 * http://www.rubyist.net/~slagell/ruby/control.html

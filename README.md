@@ -17,8 +17,7 @@
 
 ## Module 07 - HTTP, REST and rest-client
 
-7) What is Rake - practice creating Rake files
-
+## Module 08 - Rake and Rakefile
 
 ## Module 09 - Reading and understanding simple programs
 

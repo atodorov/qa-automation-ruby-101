@@ -1,4 +1,4 @@
-# HTTP, REST and rest-client
+# Module 07 - HTTP, REST and rest-client
 
 Read:
 * https://learn.onemonth.com/understanding-http-basics/

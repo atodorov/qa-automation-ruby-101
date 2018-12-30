@@ -1,4 +1,4 @@
-# Introduction to Cucumber
+# Module 06 - Introduction to Cucumber
 
 Read:
 * https://docs.cucumber.io/bdd/
