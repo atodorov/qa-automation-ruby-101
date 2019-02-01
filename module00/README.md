@@ -11,8 +11,8 @@ Read https://en.wikipedia.org/wiki/Programming_language.
 
 Exercise: verbal programming
 
-* Express how would you make youself a coffee
-* Express how would you starting a car engine
+* Express how would you make yourself a coffee
+* Express how would you start a car engine
 * Express your morning routine as a program
 
 Important items: input data, control flow, functions, return values, modules, programs!
@@ -29,7 +29,7 @@ on the fly.
 
 Exercise:
 * Translate English text into written
-* Live interetation of English text
+* Live interpretation of English text
 
 
 ## Operating System
@@ -77,14 +77,14 @@ Read:
 
 Exercise:
 * Design a library of functions that may be used for cooking pancakes
-* Let's use the library for cooking an omelete
+* Let's use the library for cooking an omelette
 * Try using the library for making a smoothie
 
-* Design a framework for cooking pancakes.
+* Design a framework for cooking pancakes;
   The framework may or may not utilize the library!
 * Create programs using `awesome-pancakes-framework` to cook different
   variations of pancakes.
-* Try preparing an omelete with the framework
+* Try preparing an omelette with the framework
 * Try preparing a smoothie with the framework
 
 * How do we "package" our library and framework ?
@@ -107,18 +107,18 @@ Full presentation
 
 
 Exercise:
-* How are you going to test your pancakes ?
-* What information do we need to provide about pancakes ? To whom ?
+* How are you going to test your pancakes?
+* What information do we need to provide about pancakes? To whom?
 * Scenario: pancakes are burned to black. How do you debug this?
-* Scenario: pancakes smell and taste bad but are cooked fine. How do you debug this ?
+* Scenario: pancakes smell and taste bad but are cooked fine. How do you debug this?
 
 
-## Why me? I am not a programmer, I am a tester ?
+## Why me? I am not a programmer, I am a tester?
 
 Exercise:
-* Write down objections as to why testers should not be involved in programming
-  or treated as programmer
-* Answer what is the current state of affairs for you
+* Write down objections as to why testers should be involved in programming
+  or treated as programmers
+* Think about the current state of affairs for you
 * Give answers to the previous objections
 
 
@@ -126,22 +126,22 @@ Exercise:
 
 Answer the questions:
 
-* What is a programming language ?
-* Why do we need a programming language ?
-* What is a programming language syntax ?
-* What is the difference between static and dynamic typed languages ?
-* What is a standard library ?
-* What is the difference between a script vs. a program ?
-* What are the advantages / disadvantages between compiled programs and interpreted programs ?
-* What program produces .exe files on Windows and executable binaries on Linux ?
-* What is UNIX ?
-* Why POSIX is important ?
-* Describe how an operating system will execute the `hello-world` program ?
-* What is plain text vs. rich text ?
-* How does an IDE help me over a plain text editor ?
-* Can I use a text editor for any kind of programming language ?
-* Why are make recipes needed ?
-* What are software packages ? Why do we need them ?
-* How does debugging help testing ?
-* What are the things that a tester can debug ?
-* When does a tester need to debug ?
+* What is a programming language?
+* Why do we need a programming language?
+* What is a programming language syntax?
+* What is the difference between static and dynamic typed languages?
+* What is a standard library?
+* What is the difference between a script and a program?
+* What are the advantages / disadvantages of compiled programs and interpreted programs?
+* What program produces .exe files on Windows and executable binaries on Linux?
+* What is UNIX?
+* Why POSIX is important?
+* Describe how an operating system will execute the `hello-world` program?
+* What is plain text vs. rich text?
+* How does an IDE help me over a plain text editor?
+* Can I use a text editor for any kind of programming language?
+* Why are make recipes needed?
+* What are software packages? Why do we need them?
+* How does debugging help testing?
+* What are the things that a tester can debug?
+* When does a tester need to debug?
