@@ -23,6 +23,10 @@ describe 'solution.rb' do
                 end
             end
         end
+
+        it 'should accept floating point numbers' do
+            expect(f_x(2, 3.14, 1.49)).to eq(7.77)
+        end
     end
 
     describe 'sum' do
