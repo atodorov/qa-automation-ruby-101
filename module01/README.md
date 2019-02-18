@@ -224,7 +224,8 @@ For more information see http://rspec.info/
 
 * Create a program named `lib/solution.rb`
 * Define a method with the following signature `def f_c(X)` which
-  returns the constant 4 for any input parameter.
+  returns the constant 4 for any input parameter. It should work with or without
+  parameters
 * Document what the method `f_c` does with comments
 * Write a method `f_x(x, a, b)` which implements the formula `f(x) = a*x + b`!
 * Write a method `sum(x)` which returns the sum of `f_x()` called 3 times with
