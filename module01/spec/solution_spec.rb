@@ -2,9 +2,9 @@ require 'solution'
 
 describe 'solution.rb' do
     describe 'f_c' do
-#        it 'should return 4' do
-#            expect(f_c()).to eq(4)
-#        end
+        it 'should return 4' do
+            expect(f_c()).to eq(4)
+        end
 
         it 'should return 4 for any number' do
             (-10..10).each do |x|
