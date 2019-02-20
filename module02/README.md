@@ -103,3 +103,7 @@ of the number `n` inside the sequence `arr` counting from 1.
 
     $ bin/rspec --format doc
     $ ~/.rvm/gems/default/bin/rspec --format doc
+
+## Extra exercises
+
+https://github.com/HackBulgaria/Programming101-Ruby/tree/master/week01/2-List-and-Hashes
