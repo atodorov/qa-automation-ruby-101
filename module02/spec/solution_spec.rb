@@ -179,11 +179,14 @@ describe 'solution.rb' do
     describe 'add_fibonacci' do
         numbers = FIBONACCI_NUMBERS.clone
 
-        it 'should work per soecification' do
+        it 'should work per specification' do
             expect(numbers).to eq([1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144])
             expect(add_fibonacci(numbers)[-1]).to eq(233)
             expect(add_fibonacci(numbers)[-1]).to eq(377)
             expect(add_fibonacci(numbers)[-1]).to eq(610)
+
+            # the constant from the module was not changed
+            expect(FIBONACCI_NUMBERS).to eq([1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144])
         end
     end
 
