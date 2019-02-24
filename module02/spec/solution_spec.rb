@@ -185,6 +185,10 @@ describe 'solution.rb' do
             expect(add_fibonacci(numbers)[-1]).to eq(377)
             expect(add_fibonacci(numbers)[-1]).to eq(610)
 
+            # new array was not created, instead we modified the input parameter
+            new_numbers = add_fibonacci(numbers)
+            expect(numbers.object_id).to eq(new_numbers.object_id)
+
             # the constant from the module was not changed
             expect(FIBONACCI_NUMBERS).to eq([1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144])
         end
