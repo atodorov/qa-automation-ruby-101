@@ -50,7 +50,9 @@ describe 'solution.rb' do
     describe 'num_floor' do
         it 'should perform floor division' do
             expect(num_floor(10, 4)).to eq(2)
+            expect(num_floor(10, 4.0)).to eq(2)
             expect(num_floor(4, 10)).to eq(0)
+            expect(num_floor(4.0, 10)).to eq(0)
         end
     end
 
