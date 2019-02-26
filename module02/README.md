@@ -107,3 +107,39 @@ of the number `n` inside the sequence `arr` counting from 1.
 ## Extra exercises
 
 https://github.com/HackBulgaria/Programming101-Ruby/tree/master/week01/2-List-and-Hashes
+
+## More exercises
+
+* Implement a method `record(x)` which records how many times it was called with a given
+argument. Implement a method `memory` which returns a hash with keys - the argument values
+`record` was called with, and values - the number of corresponding invocations.
+Example:
+```
+record(20)
+record(3)
+record(20)
+memory()
+# {20 => 2, 3 => 1}
+```
+
+* A point is given in the hash `{x:, y:}`. A rectangle is given with the hash
+`{x:, y:, w:, h:}`. Implement method `inside?(point, rect)` that returns whether
+the given point is inside the rectangle or not.
+
+* Implement a method `intersection(r1, r2)` which returns what's the intersection
+state of two rectangles. The return values are `:none` (no intersection), `:touch`
+(one line of the rectangle touches the other), `:intersect` (there is intersection)
+or `:embed` (one of the rects in completely within the other)
+
+* A line is described with the hash `{x1:, y1:, x2:, y2}`, containing coordinates
+of two points of the line. Implement a method `parallel?(line1, line2)` which returns
+whether the two lines are parallel or not.
+
+
+* Given 3 points (hashes with keys `:x` and `:y`), implement a method `triangle(a,b,c)`
+that returns the type of triangle(`:equilateral`, `:isosceles`, `:scalene`, `:obtuse`,
+  `:right-angled`).
+
+* Given an array of 4 points (hashes with keys `:x` and `:y`). Implement
+  method `figure(point)` which returns `:square`, `:rectangle`, `:diamond`,
+  `:parallelogram`, `:trapezoid` or `:unknown` - telling what figure the points describe.
