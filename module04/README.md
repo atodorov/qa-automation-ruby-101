@@ -122,4 +122,7 @@ Some important methods are `.to_s`, `.==`, `.to_int`
 ## Tasks & homework
 
 * Checkout the 3 tasks in this directory;
-* Use the `test.py` file in each directory to validate your implementation!
+* Use the test suite in each directory to validate your solution is correct:
+
+    $ bin/rspec --format doc
+    $ ~/.rvm/gems/default/bin/rspec --format doc
