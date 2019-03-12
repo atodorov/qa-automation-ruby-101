@@ -121,7 +121,7 @@ Some important methods are `.to_s`, `.==`, `.to_int`
 
 ## Tasks & homework
 
-* Checkout the 3 tasks in this directory;
+* Checkout the 2 tasks in this directory;
 * Use the test suite in each directory to validate your solution is correct:
 
     $ bin/rspec --format doc
