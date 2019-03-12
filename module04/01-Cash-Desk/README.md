@@ -42,13 +42,14 @@ money_holder = {}
 
 money_holder[a] = 1 # We have one 10$ bill
 
-if c in money_holder
+if money_holder.key?(c)
     money_holder[c] += 1
 end
 
 puts money_holder # { "A 10$ bill": 2 }
 ```
 
+Note: hashes don't use `.==` for comparison, they use `.eql?` so you need to implement this.
 
 ## The BatchBill class
 
