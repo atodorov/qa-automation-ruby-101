@@ -19,4 +19,4 @@ cleaning up temporary files, executing automated tests and publishing results!
 ## Exercises
 
 This module contains a spec which needs to pass. Your task is to satisfy the
-requirements by impementing an appropriate rake file.
+requirements by implementing an appropriate rake file.

@@ -85,7 +85,7 @@ The goal of this section is to **think** and produce Gherkin specifications.
 First we are going to brainstorm about software features and later refine them
 into a formal description.
 
-**Note:** we need yello, blue, green and red sticky notes for this exercise,
+**Note:** we need yellow, blue, green and red sticky notes for this exercise,
 see https://cucumber.io/blog/2015/12/08/example-mapping-introduction!
 
 Rules:
@@ -97,7 +97,7 @@ Rules:
 
 
 Exercise #1: generate as many as possible user-stories, acceptance rules,
-examples and questions and classify them with colors: yello, blue, green and red!
+examples and questions and classify them with colors: yellow, blue, green and red!
 
 
 Exercise #2: convert your user stories into Gherkin features and scenarios!

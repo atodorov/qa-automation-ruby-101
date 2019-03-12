@@ -89,7 +89,7 @@ end
 # A 100$ bill
 ```
 
-## The CashDesk classs
+## The CashDesk class
 
 Finally, implement a `CashDesk` class, which has the following methods:
 

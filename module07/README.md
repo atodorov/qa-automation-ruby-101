@@ -40,7 +40,7 @@ system.
 
 Exercise: Design a REST API for Panda Social Network
 
-- quickly identify a set of features that will be implemeted
+- quickly identify a set of features that will be implemented
 - write:
   - what kinds of requests we would want to make
   - what responses the server should return
