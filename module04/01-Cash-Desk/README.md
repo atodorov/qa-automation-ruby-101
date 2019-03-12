@@ -50,6 +50,7 @@ puts money_holder # { "A 10$ bill": 2 }
 ```
 
 Note: hashes don't use `.==` for comparison, they use `.eql?` so you need to implement this.
+You also need to implement the [hash](https://ruby-doc.org/core-2.2.0/Object.html#method-i-hash) method.
 
 ## The BatchBill class
 
