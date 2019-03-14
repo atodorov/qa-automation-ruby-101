@@ -22,7 +22,7 @@ The part of the code between the curly braces (`{` and `}`) or between `do` and
 `end` is called a block. Is a piece of a ruby code similar to a method. It may
 receive parameters (`number` in the example above). So when blocks are used?
 
-***They are used whenever a method accepts a block parameters***
+***They are used whenever a method accepts a block parameter***
 
 That's right - the block is a special kind of a parameter. In some languages
 you can pass a function to another function. In other you need to pass a pointer
@@ -30,12 +30,12 @@ to a method. Ruby has a data type to store executable code - `proc`
 
 ```ruby
 even_numbers = proc { |number| number.even? }
-[1, 2, 3].select(&proc)
+[1, 2, 3].select(&even_numbers)
 ```
 
 ## Accepting blocks in a method
 
-You can create methods to accept block too. The block should be the last argument of
+You can create methods that accept block too. The block should be the last argument of
 the method.
 
 ```ruby
