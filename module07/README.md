@@ -71,7 +71,7 @@ can be executed anonymously without logging in!
 - User atodorov is a member of the weldr organization
 - Organization kiwitcms has at least 3 members
 - Organization kiwitcms has a member named asankov
-- Organization kiwitcms has a member named kiwi-bot
+- Organization kiwitcms has a member named kiwitcms-bot
 - Repository kiwitcms/Kiwi has more than 100 stargazers
 - You yourself are a stargazer of kiwitcms/Kiwi repository (you will have to hit the
   Star button via the webUI to make the scenario pass)
